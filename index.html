@@ -191,14 +191,6 @@
   }
   .announcement-card .btn-primary{ color:var(--white); }
 
-  .scroll-cue{
-    position:absolute; bottom:34px; left:50%; transform:translateX(-50%);
-    display:flex; flex-direction:column; align-items:center; gap:8px;
-    font-size:0.72rem; color:rgba(251,250,247,0.5); letter-spacing:0.04em;
-  }
-  .scroll-cue .line{width:1px; height:34px; background:linear-gradient(var(--teal-soft), transparent); animation:pulse 2.2s ease-in-out infinite;}
-  @keyframes pulse{ 0%,100%{opacity:.3;} 50%{opacity:1;} }
-
   @keyframes riseIn{
     from{ opacity:0; transform:translateY(18px); }
     to{ opacity:1; transform:translateY(0); }
@@ -447,7 +439,7 @@
     <a class="btn btn-ghost" href="#contact">Nous contacter</a>
   </div>
 
-  <div class="scroll-cue"><span class="line"></span>défiler</div>
+
 </header>
 
 <section class="announcement">
